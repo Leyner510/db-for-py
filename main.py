@@ -84,7 +84,7 @@ def find_client(cur, name=None, surname=None, email=None, phones_id=None):
 
 
 if __name__ == '__main__':
-    conn = psycopg2.connect(database="askar_homework", user="postgres", password="Luxury443")
+    conn = psycopg2.connect(database="askar_homework", user="postgres", password="123456")
     with conn.cursor() as cur:
 
 
